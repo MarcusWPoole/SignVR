@@ -1,0 +1,320 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void JointOcclusion::Setup()
+extern void JointOcclusion_Setup_m1EA1879AE7327264AEFBCAFD095FFDDCDEEDA246 (void);
+// 0x00000002 UnityEngine.Mesh JointOcclusion::createCubeMesh()
+extern void JointOcclusion_createCubeMesh_m8C1F7BBC3A1D3BD25491297220F86DCD09FDDE0F (void);
+// 0x00000003 System.Single[] JointOcclusion::Confidence_JointOcclusion(System.Single[],UnityEngine.Transform,Leap.Hand)
+extern void JointOcclusion_Confidence_JointOcclusion_m0BB05D395BA4815600EA58FFD648DEC0EB52B29C (void);
+// 0x00000004 System.Single JointOcclusion::DistanceBetweenColors(UnityEngine.Color,UnityEngine.Color)
+extern void JointOcclusion_DistanceBetweenColors_mD5D07AC2A4037F92195CA15C08B4F7B160249234 (void);
+// 0x00000005 System.Void JointOcclusion::.ctor()
+extern void JointOcclusion__ctor_mEF59BD559AAE0F21D12880F2C5655F885F0CE506 (void);
+// 0x00000006 System.Void JointOcclusion/<>c__DisplayClass13_0::.ctor()
+extern void U3CU3Ec__DisplayClass13_0__ctor_m27EB3B381866DBE367A658F3CD8BA34BDFF191FC (void);
+// 0x00000007 System.Boolean JointOcclusion/<>c__DisplayClass13_0::<Confidence_JointOcclusion>b__0(UnityEngine.Color)
+extern void U3CU3Ec__DisplayClass13_0_U3CConfidence_JointOcclusionU3Eb__0_mCFC4B814F8CD7D7AE5EB55C30C1862223F1ECCE7 (void);
+// 0x00000008 System.Boolean JointOcclusion/<>c__DisplayClass13_0::<Confidence_JointOcclusion>b__1(UnityEngine.Color)
+extern void U3CU3Ec__DisplayClass13_0_U3CConfidence_JointOcclusionU3Eb__1_m420A7802AD2FE25809C4B6A1F631A3896137C93D (void);
+// 0x00000009 System.Void VisualizeJointConfidence::Start()
+extern void VisualizeJointConfidence_Start_m5F044FF19C0AC1DDB4643AF48FDFB1E7916CB681 (void);
+// 0x0000000A System.Void VisualizeJointConfidence::Update()
+extern void VisualizeJointConfidence_Update_m05DB59E04F0355ED4FE2F4752D8057B50A59BA7B (void);
+// 0x0000000B System.Void VisualizeJointConfidence::.ctor()
+extern void VisualizeJointConfidence__ctor_m3326B4F3F20EA07AFF91C853D0B3693435CA5BAF (void);
+// 0x0000000C Leap.Frame Leap.Unity.AggregationProviderAngularInterpolation::MergeFrames(Leap.Frame[])
+extern void AggregationProviderAngularInterpolation_MergeFrames_m4DB4092D54381695CC4A92B5895CEADEB6A3C67A (void);
+// 0x0000000D Leap.Hand[] Leap.Unity.AggregationProviderAngularInterpolation::MergeHands(Leap.Frame[])
+extern void AggregationProviderAngularInterpolation_MergeHands_mDAD5B9C2EF8A94554F6BF514B975AF80F8F1F7BC (void);
+// 0x0000000E System.Single Leap.Unity.AggregationProviderAngularInterpolation::AngleSigned(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3)
+extern void AggregationProviderAngularInterpolation_AngleSigned_m8017E05384ADA0CA2418337FD63B4B69584B36F0 (void);
+// 0x0000000F Leap.Hand Leap.Unity.AggregationProviderAngularInterpolation::AngularInterpolate(Leap.Hand[],System.Single&,System.Single&)
+extern void AggregationProviderAngularInterpolation_AngularInterpolate_mA3C967487A594C9D889750B5220A87691201BAF8 (void);
+// 0x00000010 System.Single Leap.Unity.AggregationProviderAngularInterpolation::aprxAvg(System.Single,System.Single)
+extern void AggregationProviderAngularInterpolation_aprxAvg_m964B2FF95083F5C957B28C9A75307C1EB125D7D0 (void);
+// 0x00000011 System.Void Leap.Unity.AggregationProviderAngularInterpolation::OnDrawGizmos()
+extern void AggregationProviderAngularInterpolation_OnDrawGizmos_m79FF73113789C14D7FA30E2A646A4F397182A6DB (void);
+// 0x00000012 System.Void Leap.Unity.AggregationProviderAngularInterpolation::.ctor()
+extern void AggregationProviderAngularInterpolation__ctor_m0396850460F9FD38D3589107629830ABD38474EA (void);
+// 0x00000013 Leap.Frame Leap.Unity.AggregationProviderConfidenceInterpolation::MergeFrames(Leap.Frame[])
+extern void AggregationProviderConfidenceInterpolation_MergeFrames_m5593C661CC46DC1E737678ED043882F5A8D99E50 (void);
+// 0x00000014 Leap.Hand Leap.Unity.AggregationProviderConfidenceInterpolation::MergeHands(System.Collections.Generic.List`1<Leap.Hand>,System.Collections.Generic.List`1<System.Single>,System.Collections.Generic.List`1<System.Single[]>)
+extern void AggregationProviderConfidenceInterpolation_MergeHands_m4DC85F0C88DC4E344C5E60CC49BAAABA9732AC64 (void);
+// 0x00000015 System.Single Leap.Unity.AggregationProviderConfidenceInterpolation::CalculateHandConfidence(System.Int32,Leap.Hand)
+extern void AggregationProviderConfidenceInterpolation_CalculateHandConfidence_mC9B4D0E3F62A607391756CEFA2E508E2A3F4BCD2 (void);
+// 0x00000016 System.Single[] Leap.Unity.AggregationProviderConfidenceInterpolation::CalculateJointConfidence(System.Int32,Leap.Hand)
+extern void AggregationProviderConfidenceInterpolation_CalculateJointConfidence_m240C1B2A17B8B4E1185280C031DB23385EA91754 (void);
+// 0x00000017 System.Single Leap.Unity.AggregationProviderConfidenceInterpolation::Confidence_RelativeHandPos(Leap.Unity.LeapProvider,UnityEngine.Transform,UnityEngine.Vector3)
+extern void AggregationProviderConfidenceInterpolation_Confidence_RelativeHandPos_mDD1D7BC0F9A022959435A5DBAF2FC80D856D9891 (void);
+// 0x00000018 System.Single Leap.Unity.AggregationProviderConfidenceInterpolation::Confidence_RelativeHandRot(UnityEngine.Transform,UnityEngine.Vector3,UnityEngine.Vector3)
+extern void AggregationProviderConfidenceInterpolation_Confidence_RelativeHandRot_m6153CFBB521FA2A9B8294325AE54827C5645C36D (void);
+// 0x00000019 System.Single Leap.Unity.AggregationProviderConfidenceInterpolation::Confidence_RelativeHandVelocity(Leap.Unity.LeapProvider,UnityEngine.Transform,UnityEngine.Vector3,System.Boolean)
+extern void AggregationProviderConfidenceInterpolation_Confidence_RelativeHandVelocity_m474C085794C1320C43314F3C3BE260BE32901A9D (void);
+// 0x0000001A System.Single Leap.Unity.AggregationProviderConfidenceInterpolation::Confidence_TimeSinceHandFirstVisible(Leap.Unity.LeapProvider,System.Boolean)
+extern void AggregationProviderConfidenceInterpolation_Confidence_TimeSinceHandFirstVisible_m85CE4C897D1A2D200E21FF7D0A5C81495B57D20C (void);
+// 0x0000001B System.Single[] Leap.Unity.AggregationProviderConfidenceInterpolation::Confidence_RelativeJointRot(System.Single[],UnityEngine.Transform,Leap.Hand)
+extern void AggregationProviderConfidenceInterpolation_Confidence_RelativeJointRot_mECB95D96E7A9E9133FE649B246E0B22905796481 (void);
+// 0x0000001C System.Single[] Leap.Unity.AggregationProviderConfidenceInterpolation::Confidence_relativeJointRotToPalmRot(System.Single[],UnityEngine.Transform,Leap.Hand)
+extern void AggregationProviderConfidenceInterpolation_Confidence_relativeJointRotToPalmRot_m3850DF0D238E9ABDB99D3A17C7B80ECE853696A4 (void);
+// 0x0000001D System.Void Leap.Unity.AggregationProviderConfidenceInterpolation::AddFrameToTimeVisibleDicts(Leap.Frame[],System.Int32)
+extern void AggregationProviderConfidenceInterpolation_AddFrameToTimeVisibleDicts_mBBCBAB34336CC667A66E25AFDD320AD74C18FF5B (void);
+// 0x0000001E System.Void Leap.Unity.AggregationProviderConfidenceInterpolation::SetupJointOcclusion()
+extern void AggregationProviderConfidenceInterpolation_SetupJointOcclusion_mE789C4D294726858ECB677A81CC7C854BB993455 (void);
+// 0x0000001F UnityEngine.Transform Leap.Unity.AggregationProviderConfidenceInterpolation::GetDeviceOrigin(Leap.Unity.LeapProvider)
+extern void AggregationProviderConfidenceInterpolation_GetDeviceOrigin_m26B5A9F0C687E073D8609B21E566EA293CEEC783 (void);
+// 0x00000020 System.Void Leap.Unity.AggregationProviderConfidenceInterpolation::VisualizeMergedJoints(Leap.Unity.CapsuleHand,System.Collections.Generic.List`1<System.Single[]>)
+extern void AggregationProviderConfidenceInterpolation_VisualizeMergedJoints_m7326EF044BC08E59A603A94C207014E6D626C1A8 (void);
+// 0x00000021 System.Void Leap.Unity.AggregationProviderConfidenceInterpolation::.ctor()
+extern void AggregationProviderConfidenceInterpolation__ctor_mB6F66DDC1032E07C1527091CD46885943AC10AEC (void);
+// 0x00000022 System.Void Leap.Unity.AggregationProviderConfidenceInterpolation/HandPositionHistory::.ctor()
+extern void HandPositionHistory__ctor_m9DE01D6BD6B94DA7FA5DD99165C96210B45A9884 (void);
+// 0x00000023 System.Void Leap.Unity.AggregationProviderConfidenceInterpolation/HandPositionHistory::ClearAllPositions()
+extern void HandPositionHistory_ClearAllPositions_mB6443335037CB4018A8308451945B82751CA29BE (void);
+// 0x00000024 System.Void Leap.Unity.AggregationProviderConfidenceInterpolation/HandPositionHistory::AddPosition(UnityEngine.Vector3,System.Single)
+extern void HandPositionHistory_AddPosition_mCF9FD26638C45FB4293FB106EACF6B29D54BAA99 (void);
+// 0x00000025 System.Boolean Leap.Unity.AggregationProviderConfidenceInterpolation/HandPositionHistory::GetPastPosition(System.Int32,UnityEngine.Vector3&,System.Single&)
+extern void HandPositionHistory_GetPastPosition_m94A345BE59BD12912A9B9B8ECEB9400FF0A212F6 (void);
+// 0x00000026 System.Boolean Leap.Unity.AggregationProviderConfidenceInterpolation/HandPositionHistory::GetOldestPosition(UnityEngine.Vector3&,System.Single&)
+extern void HandPositionHistory_GetOldestPosition_mBA696700AE341C6571B1B20ADC5F3997CD74B39F (void);
+// 0x00000027 System.Void Leap.Unity.AggregationProviderConfidenceInterpolation/JointConfidenceHistory::.ctor(System.Int32)
+extern void JointConfidenceHistory__ctor_mAB4A7FEFCC9AD41105579FFCB8F570CBC507C088 (void);
+// 0x00000028 System.Void Leap.Unity.AggregationProviderConfidenceInterpolation/JointConfidenceHistory::ClearAll()
+extern void JointConfidenceHistory_ClearAll_m3BADE251E7A4C08EFA04E5B7C585561AB21578BD (void);
+// 0x00000029 System.Void Leap.Unity.AggregationProviderConfidenceInterpolation/JointConfidenceHistory::AddConfidences(System.Single[])
+extern void JointConfidenceHistory_AddConfidences_mA342EF88E1218BD3242E1A1762B08A331D581B08 (void);
+// 0x0000002A System.Single[] Leap.Unity.AggregationProviderConfidenceInterpolation/JointConfidenceHistory::GetAveragedConfidences()
+extern void JointConfidenceHistory_GetAveragedConfidences_m5533C15B7B3AC57705FBA72B23634D223E60C68B (void);
+// 0x0000002B System.Void Leap.Unity.AggregationProviderConfidenceInterpolation/HandConfidenceHistory::.ctor(System.Int32)
+extern void HandConfidenceHistory__ctor_mF745CF23842A47CC89CBA81E4B3A684EB9E7B65A (void);
+// 0x0000002C System.Void Leap.Unity.AggregationProviderConfidenceInterpolation/HandConfidenceHistory::ClearAll()
+extern void HandConfidenceHistory_ClearAll_mB235098781A4FDFB2A8BD324C0E0C813989143CC (void);
+// 0x0000002D System.Void Leap.Unity.AggregationProviderConfidenceInterpolation/HandConfidenceHistory::AddConfidence(System.Single)
+extern void HandConfidenceHistory_AddConfidence_m57DB1091F62D813FB2A4EB066829D8BAC8B42812 (void);
+// 0x0000002E System.Single Leap.Unity.AggregationProviderConfidenceInterpolation/HandConfidenceHistory::GetAveragedConfidence()
+extern void HandConfidenceHistory_GetAveragedConfidence_m154E422BE274770DE9D27C8C3393C15C8E280ACA (void);
+// 0x0000002F System.Void Leap.Unity.AggregationProviderConfidenceInterpolation/<>c__DisplayClass25_0::.ctor()
+extern void U3CU3Ec__DisplayClass25_0__ctor_m0ECA57D9BF974BAD2389EB4DD6AF481C1F94C0B2 (void);
+// 0x00000030 System.Single Leap.Unity.AggregationProviderConfidenceInterpolation/<>c__DisplayClass25_0::<MergeFrames>b__0(System.Single[])
+extern void U3CU3Ec__DisplayClass25_0_U3CMergeFramesU3Eb__0_m21A989B2856A0023B294A13BFD1F5CC989E4BFC7 (void);
+// 0x00000031 System.Single Leap.Unity.AggregationProviderConfidenceInterpolation/<>c__DisplayClass25_0::<MergeFrames>b__1(System.Single[])
+extern void U3CU3Ec__DisplayClass25_0_U3CMergeFramesU3Eb__1_m8AB8A389179CAC741EC7FF8D02A3B3627C5D0301 (void);
+// 0x00000032 System.Void Leap.Unity.AggregationProviderConfidenceInterpolation/<>c__DisplayClass41_0::.ctor()
+extern void U3CU3Ec__DisplayClass41_0__ctor_mA802019AC0E64DC29446FAC870CFFE0C6BBDFC17 (void);
+// 0x00000033 System.Single Leap.Unity.AggregationProviderConfidenceInterpolation/<>c__DisplayClass41_0::<VisualizeMergedJoints>b__0(System.Single[])
+extern void U3CU3Ec__DisplayClass41_0_U3CVisualizeMergedJointsU3Eb__0_mDA4B4DB8FD427E6C0C47880BB4109CE9C4D2ACFB (void);
+// 0x00000034 System.Single Leap.Unity.AggregationProviderConfidenceInterpolation/<>c__DisplayClass41_0::<VisualizeMergedJoints>b__1(System.Single[])
+extern void U3CU3Ec__DisplayClass41_0_U3CVisualizeMergedJointsU3Eb__1_mB57E7522CA54825BD5BE92B301ED87038B307C75 (void);
+// 0x00000035 Leap.Frame Leap.Unity.LeapAggregatedProviderBase::get_CurrentFrame()
+extern void LeapAggregatedProviderBase_get_CurrentFrame_m1674064CFC56A5B2514FCD461CB4F3B4EB480853 (void);
+// 0x00000036 Leap.Frame Leap.Unity.LeapAggregatedProviderBase::get_CurrentFixedFrame()
+extern void LeapAggregatedProviderBase_get_CurrentFixedFrame_m35608A831554B1111A67C6E6D0318B03B00914B5 (void);
+// 0x00000037 System.Void Leap.Unity.LeapAggregatedProviderBase::Reset()
+extern void LeapAggregatedProviderBase_Reset_m741A8F5FCEB6517FBDAAE473D04CEC07E24A584D (void);
+// 0x00000038 System.Void Leap.Unity.LeapAggregatedProviderBase::OnValidate()
+extern void LeapAggregatedProviderBase_OnValidate_mF342FBED4184A7EF437B662341D3E9244FBEF06C (void);
+// 0x00000039 System.Void Leap.Unity.LeapAggregatedProviderBase::validateInput()
+extern void LeapAggregatedProviderBase_validateInput_mBF88B2F1120DF99CDE6BF1B947BAA0805B3FD4C7 (void);
+// 0x0000003A System.Boolean Leap.Unity.LeapAggregatedProviderBase::detectCircularProviderReference(Leap.Unity.LeapAggregatedProviderBase,System.Collections.Generic.List`1<Leap.Unity.LeapAggregatedProviderBase>)
+extern void LeapAggregatedProviderBase_detectCircularProviderReference_m5DA015BA7843F0FD9E43EEA2E2A734D2CCD1041C (void);
+// 0x0000003B System.Void Leap.Unity.LeapAggregatedProviderBase::Awake()
+extern void LeapAggregatedProviderBase_Awake_m72E3B55B0BF030682FA2FD86C7A29F4CC8C41270 (void);
+// 0x0000003C System.Void Leap.Unity.LeapAggregatedProviderBase::Start()
+extern void LeapAggregatedProviderBase_Start_m9672999BE02AAB6A7962DD3DC11D5F22223A3394 (void);
+// 0x0000003D System.Void Leap.Unity.LeapAggregatedProviderBase::OnPostRender()
+extern void LeapAggregatedProviderBase_OnPostRender_m232F2F1FF6D6A32A9FC2E18326FB7843A5FD06F5 (void);
+// 0x0000003E System.Boolean Leap.Unity.LeapAggregatedProviderBase::CheckFramesFilled(Leap.Frame[])
+extern void LeapAggregatedProviderBase_CheckFramesFilled_mA2C341A3309ABECF5312CCF84FFE4440D766A900 (void);
+// 0x0000003F System.Void Leap.Unity.LeapAggregatedProviderBase::UpdateFrame()
+extern void LeapAggregatedProviderBase_UpdateFrame_m6E76A2F687B4BB8D1E5D02E07C67B33D360CD4B5 (void);
+// 0x00000040 System.Void Leap.Unity.LeapAggregatedProviderBase::UpdateFixedFrame()
+extern void LeapAggregatedProviderBase_UpdateFixedFrame_m50ED9390C4C1745C19D5FB9D0AC9B3BF9BD8DEBF (void);
+// 0x00000041 Leap.Frame Leap.Unity.LeapAggregatedProviderBase::MergeFrames(Leap.Frame[])
+// 0x00000042 System.Void Leap.Unity.LeapAggregatedProviderBase::transformFrame(Leap.Frame,Leap.Frame)
+extern void LeapAggregatedProviderBase_transformFrame_mCFDAAD6D5D558B3507994C77DC7F980C9F1EFD22 (void);
+// 0x00000043 System.Void Leap.Unity.LeapAggregatedProviderBase::.ctor()
+extern void LeapAggregatedProviderBase__ctor_mD6D599997A051DAB56A0EC72DA18A98407A6EF35 (void);
+// 0x00000044 System.Void Leap.Unity.LeapAggregatedProviderBase/<>c__DisplayClass15_0::.ctor()
+extern void U3CU3Ec__DisplayClass15_0__ctor_m97D13D17721EA97BB3ADA159F7CFBE2950A3D0C7 (void);
+// 0x00000045 System.Void Leap.Unity.LeapAggregatedProviderBase/<>c__DisplayClass15_0::<Awake>b__0(Leap.Frame)
+extern void U3CU3Ec__DisplayClass15_0_U3CAwakeU3Eb__0_m8A9BDF03E566C8A3F14796B67AFD1FE571CE7931 (void);
+// 0x00000046 System.Void Leap.Unity.LeapAggregatedProviderBase/<>c__DisplayClass15_0::<Awake>b__1(Leap.Frame)
+extern void U3CU3Ec__DisplayClass15_0_U3CAwakeU3Eb__1_mB1176491175BE5CFD7B5C4BB6598A0CD33FFB418 (void);
+static Il2CppMethodPointer s_methodPointers[70] = 
+{
+	JointOcclusion_Setup_m1EA1879AE7327264AEFBCAFD095FFDDCDEEDA246,
+	JointOcclusion_createCubeMesh_m8C1F7BBC3A1D3BD25491297220F86DCD09FDDE0F,
+	JointOcclusion_Confidence_JointOcclusion_m0BB05D395BA4815600EA58FFD648DEC0EB52B29C,
+	JointOcclusion_DistanceBetweenColors_mD5D07AC2A4037F92195CA15C08B4F7B160249234,
+	JointOcclusion__ctor_mEF59BD559AAE0F21D12880F2C5655F885F0CE506,
+	U3CU3Ec__DisplayClass13_0__ctor_m27EB3B381866DBE367A658F3CD8BA34BDFF191FC,
+	U3CU3Ec__DisplayClass13_0_U3CConfidence_JointOcclusionU3Eb__0_mCFC4B814F8CD7D7AE5EB55C30C1862223F1ECCE7,
+	U3CU3Ec__DisplayClass13_0_U3CConfidence_JointOcclusionU3Eb__1_m420A7802AD2FE25809C4B6A1F631A3896137C93D,
+	VisualizeJointConfidence_Start_m5F044FF19C0AC1DDB4643AF48FDFB1E7916CB681,
+	VisualizeJointConfidence_Update_m05DB59E04F0355ED4FE2F4752D8057B50A59BA7B,
+	VisualizeJointConfidence__ctor_m3326B4F3F20EA07AFF91C853D0B3693435CA5BAF,
+	AggregationProviderAngularInterpolation_MergeFrames_m4DB4092D54381695CC4A92B5895CEADEB6A3C67A,
+	AggregationProviderAngularInterpolation_MergeHands_mDAD5B9C2EF8A94554F6BF514B975AF80F8F1F7BC,
+	AggregationProviderAngularInterpolation_AngleSigned_m8017E05384ADA0CA2418337FD63B4B69584B36F0,
+	AggregationProviderAngularInterpolation_AngularInterpolate_mA3C967487A594C9D889750B5220A87691201BAF8,
+	AggregationProviderAngularInterpolation_aprxAvg_m964B2FF95083F5C957B28C9A75307C1EB125D7D0,
+	AggregationProviderAngularInterpolation_OnDrawGizmos_m79FF73113789C14D7FA30E2A646A4F397182A6DB,
+	AggregationProviderAngularInterpolation__ctor_m0396850460F9FD38D3589107629830ABD38474EA,
+	AggregationProviderConfidenceInterpolation_MergeFrames_m5593C661CC46DC1E737678ED043882F5A8D99E50,
+	AggregationProviderConfidenceInterpolation_MergeHands_m4DC85F0C88DC4E344C5E60CC49BAAABA9732AC64,
+	AggregationProviderConfidenceInterpolation_CalculateHandConfidence_mC9B4D0E3F62A607391756CEFA2E508E2A3F4BCD2,
+	AggregationProviderConfidenceInterpolation_CalculateJointConfidence_m240C1B2A17B8B4E1185280C031DB23385EA91754,
+	AggregationProviderConfidenceInterpolation_Confidence_RelativeHandPos_mDD1D7BC0F9A022959435A5DBAF2FC80D856D9891,
+	AggregationProviderConfidenceInterpolation_Confidence_RelativeHandRot_m6153CFBB521FA2A9B8294325AE54827C5645C36D,
+	AggregationProviderConfidenceInterpolation_Confidence_RelativeHandVelocity_m474C085794C1320C43314F3C3BE260BE32901A9D,
+	AggregationProviderConfidenceInterpolation_Confidence_TimeSinceHandFirstVisible_m85CE4C897D1A2D200E21FF7D0A5C81495B57D20C,
+	AggregationProviderConfidenceInterpolation_Confidence_RelativeJointRot_mECB95D96E7A9E9133FE649B246E0B22905796481,
+	AggregationProviderConfidenceInterpolation_Confidence_relativeJointRotToPalmRot_m3850DF0D238E9ABDB99D3A17C7B80ECE853696A4,
+	AggregationProviderConfidenceInterpolation_AddFrameToTimeVisibleDicts_mBBCBAB34336CC667A66E25AFDD320AD74C18FF5B,
+	AggregationProviderConfidenceInterpolation_SetupJointOcclusion_mE789C4D294726858ECB677A81CC7C854BB993455,
+	AggregationProviderConfidenceInterpolation_GetDeviceOrigin_m26B5A9F0C687E073D8609B21E566EA293CEEC783,
+	AggregationProviderConfidenceInterpolation_VisualizeMergedJoints_m7326EF044BC08E59A603A94C207014E6D626C1A8,
+	AggregationProviderConfidenceInterpolation__ctor_mB6F66DDC1032E07C1527091CD46885943AC10AEC,
+	HandPositionHistory__ctor_m9DE01D6BD6B94DA7FA5DD99165C96210B45A9884,
+	HandPositionHistory_ClearAllPositions_mB6443335037CB4018A8308451945B82751CA29BE,
+	HandPositionHistory_AddPosition_mCF9FD26638C45FB4293FB106EACF6B29D54BAA99,
+	HandPositionHistory_GetPastPosition_m94A345BE59BD12912A9B9B8ECEB9400FF0A212F6,
+	HandPositionHistory_GetOldestPosition_mBA696700AE341C6571B1B20ADC5F3997CD74B39F,
+	JointConfidenceHistory__ctor_mAB4A7FEFCC9AD41105579FFCB8F570CBC507C088,
+	JointConfidenceHistory_ClearAll_m3BADE251E7A4C08EFA04E5B7C585561AB21578BD,
+	JointConfidenceHistory_AddConfidences_mA342EF88E1218BD3242E1A1762B08A331D581B08,
+	JointConfidenceHistory_GetAveragedConfidences_m5533C15B7B3AC57705FBA72B23634D223E60C68B,
+	HandConfidenceHistory__ctor_mF745CF23842A47CC89CBA81E4B3A684EB9E7B65A,
+	HandConfidenceHistory_ClearAll_mB235098781A4FDFB2A8BD324C0E0C813989143CC,
+	HandConfidenceHistory_AddConfidence_m57DB1091F62D813FB2A4EB066829D8BAC8B42812,
+	HandConfidenceHistory_GetAveragedConfidence_m154E422BE274770DE9D27C8C3393C15C8E280ACA,
+	U3CU3Ec__DisplayClass25_0__ctor_m0ECA57D9BF974BAD2389EB4DD6AF481C1F94C0B2,
+	U3CU3Ec__DisplayClass25_0_U3CMergeFramesU3Eb__0_m21A989B2856A0023B294A13BFD1F5CC989E4BFC7,
+	U3CU3Ec__DisplayClass25_0_U3CMergeFramesU3Eb__1_m8AB8A389179CAC741EC7FF8D02A3B3627C5D0301,
+	U3CU3Ec__DisplayClass41_0__ctor_mA802019AC0E64DC29446FAC870CFFE0C6BBDFC17,
+	U3CU3Ec__DisplayClass41_0_U3CVisualizeMergedJointsU3Eb__0_mDA4B4DB8FD427E6C0C47880BB4109CE9C4D2ACFB,
+	U3CU3Ec__DisplayClass41_0_U3CVisualizeMergedJointsU3Eb__1_mB57E7522CA54825BD5BE92B301ED87038B307C75,
+	LeapAggregatedProviderBase_get_CurrentFrame_m1674064CFC56A5B2514FCD461CB4F3B4EB480853,
+	LeapAggregatedProviderBase_get_CurrentFixedFrame_m35608A831554B1111A67C6E6D0318B03B00914B5,
+	LeapAggregatedProviderBase_Reset_m741A8F5FCEB6517FBDAAE473D04CEC07E24A584D,
+	LeapAggregatedProviderBase_OnValidate_mF342FBED4184A7EF437B662341D3E9244FBEF06C,
+	LeapAggregatedProviderBase_validateInput_mBF88B2F1120DF99CDE6BF1B947BAA0805B3FD4C7,
+	LeapAggregatedProviderBase_detectCircularProviderReference_m5DA015BA7843F0FD9E43EEA2E2A734D2CCD1041C,
+	LeapAggregatedProviderBase_Awake_m72E3B55B0BF030682FA2FD86C7A29F4CC8C41270,
+	LeapAggregatedProviderBase_Start_m9672999BE02AAB6A7962DD3DC11D5F22223A3394,
+	LeapAggregatedProviderBase_OnPostRender_m232F2F1FF6D6A32A9FC2E18326FB7843A5FD06F5,
+	LeapAggregatedProviderBase_CheckFramesFilled_mA2C341A3309ABECF5312CCF84FFE4440D766A900,
+	LeapAggregatedProviderBase_UpdateFrame_m6E76A2F687B4BB8D1E5D02E07C67B33D360CD4B5,
+	LeapAggregatedProviderBase_UpdateFixedFrame_m50ED9390C4C1745C19D5FB9D0AC9B3BF9BD8DEBF,
+	NULL,
+	LeapAggregatedProviderBase_transformFrame_mCFDAAD6D5D558B3507994C77DC7F980C9F1EFD22,
+	LeapAggregatedProviderBase__ctor_mD6D599997A051DAB56A0EC72DA18A98407A6EF35,
+	U3CU3Ec__DisplayClass15_0__ctor_m97D13D17721EA97BB3ADA159F7CFBE2950A3D0C7,
+	U3CU3Ec__DisplayClass15_0_U3CAwakeU3Eb__0_m8A9BDF03E566C8A3F14796B67AFD1FE571CE7931,
+	U3CU3Ec__DisplayClass15_0_U3CAwakeU3Eb__1_mB1176491175BE5CFD7B5C4BB6598A0CD33FFB418,
+};
+static const int32_t s_InvokerIndices[70] = 
+{
+	7234,
+	7103,
+	1548,
+	2625,
+	7234,
+	7234,
+	3996,
+	3996,
+	7234,
+	7234,
+	7234,
+	5128,
+	5128,
+	9172,
+	1530,
+	2638,
+	7234,
+	7234,
+	5128,
+	1548,
+	2627,
+	2569,
+	1577,
+	1579,
+	1072,
+	2629,
+	1548,
+	1548,
+	3250,
+	7234,
+	5128,
+	3256,
+	7234,
+	7234,
+	7234,
+	3344,
+	1359,
+	1944,
+	5711,
+	7234,
+	5745,
+	7103,
+	5711,
+	7234,
+	5785,
+	7151,
+	7234,
+	5228,
+	5228,
+	7234,
+	5228,
+	5228,
+	7103,
+	7103,
+	7234,
+	7234,
+	7234,
+	2029,
+	7234,
+	7234,
+	7234,
+	4087,
+	7234,
+	7234,
+	0,
+	3256,
+	7234,
+	7234,
+	5745,
+	5745,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Ultraleap_Tracking_Aggregation_CodeGenModule;
+const Il2CppCodeGenModule g_Ultraleap_Tracking_Aggregation_CodeGenModule = 
+{
+	"Ultraleap.Tracking.Aggregation.dll",
+	70,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};
